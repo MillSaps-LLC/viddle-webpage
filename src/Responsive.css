@@ -1,0 +1,143 @@
+@media screen and (max-width: 490px) {
+    .navbar {
+        z-index: 2;
+        max-width: 100%;
+        min-height: 100px;
+        background-color: rgba(0, 0, 0, 0.1);
+        border-color: #00FF66;
+        border-bottom: 3px solid #00FF66;
+        backdrop-filter: blur(7px);
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 25px 0 25px;
+    }
+      
+      .welcome-text {
+        font-size: 28px;
+    }
+      
+      .desc-text {
+        margin: 45px auto 0 auto;
+        width: 85%;
+        font-size: 18px;
+    }
+
+    .section1 {
+        background-position: center -190px;
+        background-size: 500%;
+    }
+    
+    .logo-main {
+        width: 180px;
+        height: auto;
+    }
+
+    .company-logo-main {
+        display: none;
+    }
+
+    .container {
+        margin: 100px auto 0 auto;
+        align-items: center;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-text-area {
+        width: 90%;
+        padding-right: 0;
+        display: flex;
+        flex-direction: column;
+    }
+      
+      .container-text-area-reverse {
+        width: 100%;
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+    }
+      
+      .container-spot-text {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+        background: linear-gradient(to right, #00FF66, #1DC9FF);
+        background-clip: text;
+        color: transparent;
+        font-size: 36px;
+        font-weight: 500;
+    }
+      
+      .container-spot-text-reverse {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+        background: linear-gradient(to right, #00FF66, #1DC9FF);
+        background-clip: text;
+        color: transparent;
+        font-size: 36px;
+        font-weight: 500;
+    }
+      
+      .container-desc {
+        width: 100%;
+        text-align: center;
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 300;
+    }
+      
+      .container-desc-reverse {
+        width: 100%;
+        text-align: center;
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 300;
+    }
+      
+      .container-img {
+        width: 240px;
+    }
+
+    .statement-text {
+        width: 80%;
+        margin: auto;
+        color: #898989;
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    .footer-section1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .section1 {
+        background-image: url(./assets/images/circles.svg);
+        background-position: -10px 40px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .section1 {
+        background-image: url(./assets/images/circles.svg);
+        background-position: 0 -20px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .welcomer {
+        margin: 22em auto auto auto;
+    }
+      
+}
