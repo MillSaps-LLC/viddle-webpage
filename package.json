@@ -1,6 +1,6 @@
 {
   "name": "viddle-webpage",
-  "homepage": "viddle.millsaps.eu",
+  "homepage": "http://MillSaps-LLC.github.io/viddle-webpage",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
