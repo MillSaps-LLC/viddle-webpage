@@ -128,7 +128,7 @@
     }
 }
 
-@media screen and (min-width: 1440px) {
+@media (min-width: 970px) and (max-width: 1440px) {
     .section1 {
         background-image: url(./assets/images/circles.svg);
         background-position: 0 -20px;
@@ -137,9 +137,8 @@
     }
 
     .welcomer {
-        margin: 22em auto auto auto;
+        margin: 6em auto auto auto;
     }
-      
 }
 
 @media screen and (min-width: 1920px) {

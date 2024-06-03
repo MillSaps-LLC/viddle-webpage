@@ -36,11 +36,16 @@ function App() {
             casual viewer or a die-hard cinephile, VIDDLE is designed to cater
             to your every entertainment need.
           </p>
-          <img
-            className="apple-preorder"
-            src={apple_preorder}
-            alt="apple preorder logo"
-          />
+          <a
+            href="https://apps.apple.com/us/app/viddle/id6502989166"
+            target="_blank"
+          >
+            <img
+              className="apple-preorder"
+              src={apple_preorder}
+              alt="apple preorder logo"
+            />
+          </a>
         </div>
       </div>
 
