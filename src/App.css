@@ -72,12 +72,14 @@
   height: fit-content;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
 }
 
 .product-launchs img {
   margin-left: 7px;
   margin-right: 7px;
+  margin-bottom: 14px;
 }
 
 .apple-preorder {
