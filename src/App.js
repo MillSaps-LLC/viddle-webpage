@@ -36,16 +36,30 @@ function App() {
             casual viewer or a die-hard cinephile, VIDDLE is designed to cater
             to your every entertainment need.
           </p>
-          <a
-            href="https://apps.apple.com/us/app/viddle/id6502989166"
-            target="_blank"
-          >
-            <img
-              className="apple-preorder"
-              src={apple_preorder}
-              alt="apple preorder logo"
-            />
-          </a>
+          <div className="product-launchs">
+            <a
+              href="https://apps.apple.com/us/app/viddle/id6502989166"
+              target="_blank"
+            >
+              <img
+                className="apple-preorder"
+                src={apple_preorder}
+                alt="apple preorder logo"
+              />
+            </a>
+            <a
+              href="https://www.producthunt.com/posts/viddle?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-viddle"
+              target="_blank"
+            >
+              <img
+                style={{ width: 250, height: 54 }}
+                src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=461264&theme=light"
+                alt="VIDDLE - The&#0032;ultimate&#0032;pocket&#0032;entertainment&#0032;guide&#0046; | Product Hunt"
+                width="250"
+                height="54"
+              />
+            </a>
+          </div>
         </div>
       </div>
 

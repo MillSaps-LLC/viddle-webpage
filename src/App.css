@@ -65,9 +65,23 @@
   font-weight: 400;
 }
 
+.product-launchs{
+  justify-content: center;
+  width: 80%;
+  margin: 40px auto 0 auto;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.product-launchs img {
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
 .apple-preorder {
   width: 170px;
-  margin-top: 40px;
 }
 
 .section2 {
